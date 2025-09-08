@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Task Decomposer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Task Decomposer</h1>
+        <p>Enter a complex task, and the AI will break it down into smaller, manageable subtasks.</p>
+        <div class="input-container">
+            <textarea id="task-input" placeholder="e.g., Create a beautiful, large website"></textarea>
+            <button id="submit-btn">Decompose Task</button>
+        </div>
+        <div class="controls">
+            <button id="delete-btn" disabled>Clear</button>
+        </div>
+        <div id="result-container">
+            <h2>Subtasks</h2>
+            <ul id="subtasks-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
